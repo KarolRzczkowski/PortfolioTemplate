@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Lato&family=Poppins:wght@100&family=Shantell+Sans:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=Lato&family=Shantell+Sans:ital,wght@0,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+
+    background-color:#ffff;
+    height: 1000px;
+}
+section .navbar-links{
+    text-align: center;
+    display:flex ;
+    list-style: none;
+    font-family: Heebo sans-serif;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    transform: translate(1400px);
+    margin: 10px;
+    margin-right: 200px;
+    cursor: pointer;
+    width: 490px;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.text{
+   
+   
+    transform: translateY(250px);
+text-align: center;
+justify-content: center;
+font-weight: bold;
+font-size: 2rem;
+user-select: none;
+font-family: 'Lato', sans-serif;
+line-height: 60px;
+
+
+}
+section .logo{
+  position: absolute;
+  left: -270%;
+  user-select: none;
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline; 
+  text-underline-position: above;
+}
+.secondary-section{
+    height: 1000px;
+    background-color: #fff;
+}
+.secondary-section .img1{
+    width: 200px;
+    height: 200px;
+    transform: translateY(500px);
+    margin-left: 80px;
+ 
+}
+.textabove-src{
+    transform: translateY(450px);
+    color: #d1dae8;
+    margin-left: 70px;
+    font-size: 50px;
+    text-align: center;
+
+}
+.Portfolio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    transform: translateY(500px);
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+   outline-color: red;
+   text-decoration: none;
+   color: #a04a4a;
+
+}
+.arrow{
+    font-size: 40px;
+}
+.one{
+   transform: translateY(400px);
+}
+.two{
+    transform: translateY(200px);
+}
+.three{
+    transform: translateY(600px);
+}
+.four{
+  transform: translateY(100px);
+}
+.seven{
+    transform: translateY(700px);
+}
+.eight{
+    transform: translateY(300px);
+}
+.six{
+    transform: translateY(200px);
+   
+    
+}
+@media only screen and(max-width:600px){
+    section .navbar-links
+    .textabove-src
+    .secondary-section
+}
